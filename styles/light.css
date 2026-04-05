@@ -1,45 +1,43 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
 .page.theme_light {
-  --title-color: #FFC2E6;
-  --text-color: #353430;
-  --sub-text-color: #353430;
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --background-image: url(../images/cover-image-light.png);
+  --main-font: "IBM Plex Mono", san serif;
+  --accent-font-color-for-background: #353430;
+  --main-text-color: #353430;
   --accent-color: #ff8dcb;
-  --btn-color:#353430;
-  --backgroung-image: url(../images/cover-image-light.png);
-}
-
-.theme_light .decorative__element {
-  display: none;
-}
-
-.theme_light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  --accent-color-text: #353430;
+  --background-color: #fff1f7;
+  --REC-color: #fff1f7;
+  --circle-color: #fff1f7;
+  --button-color: #353430;
+  --button-color-hover: #32312d66;
+  --title-color: #ffc2e6;
+  --title-decor: #ff0070;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --title-color: #FFC2E6;
-    --text-color: #353430;
-    --sub-text-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --main-font: "IBM Plex Mono", san serif;
+    --accent-font-color-for-background: #353430;
+    --main-text-color: #353430;
     --accent-color: #ff8dcb;
-    --btn-color:#353430;
-    --backgroung-image: url(../images/cover-image-light.png);
-  }
-  .decorative__element {
-    display: none;
-  }
-  
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
-  }
-}  
-
-
-@media (min-width: 1024px) {
-  .header__title {
-    text-shadow: 4px 4px 0 #FF0070;
-  }
-  .footer__title {
-    text-shadow: 4px 4px 0 #FF0070;
+    --accent-color-text: #353430;
+    --background-color: #fff1f7;
+    --REC-color: #fff1f7;
+    --circle-color: #fff1f7;
+    --button-color: #353430;
+    --button-color-hover: #32312d66;
+    --title-color: #ffc2e6;
+    --title-decor: #ff0070;
   }
 }
-
