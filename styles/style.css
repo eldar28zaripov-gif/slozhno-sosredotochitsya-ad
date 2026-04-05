@@ -1,4 +1,6 @@
 .page {
+  max-inline-size: 1440px;
+  margin: 0 auto;
   background-color: var(--background-color);
   background-image: var(--background-image);
   font-family: var(--main-font);
@@ -190,10 +192,6 @@
   line-height: 23.4px;
   text-align: left;
 }
-.accent-title {
-  color: var(--accent-font-color-for-background);
-  background-color: var(--accent-color-text);
-}
 .description-accent-title {
   color: var(--main-text-color);
   font-family: var(--main-font);
@@ -243,14 +241,6 @@
   font-weight: 400;
   line-height: 23.4px;
   font-size: 18px;
-}
-.description-accent-title {
-  color: var(--main-text-color);
-  font-family: var(--main-font);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 23.4px;
-  text-align: left;
 }
 .gallery {
   display: grid;
