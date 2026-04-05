@@ -1,4 +1,4 @@
-
+https://github.com/eldar28zaripov-gif/slozhno-sosredotochitsya
 
 # Проектная работа slozhno-sosredotochitsya
 Проект выполнен в рамках учебного курса "Фронтенд разработчик" Яндекс.Практикума<br>
