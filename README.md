@@ -1,4 +1,4 @@
-https://github.com/AlinaKondratowich/slozhno-sosredotochitsya.git
+https://github.com/eldar28zaripov-gif/slozhno-sosredotochitsya-ad
 
 
 # NO FOCUS
