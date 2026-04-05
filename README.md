@@ -1,4 +1,4 @@
-https://github.com/eldar28zaripov-gif/https-github.com-username-slozhno-sosredotochitsya-ad
+https://github.com/eldar28zaripov-gif/slozhno-sosredotochitsya-ad
 
 # Проектная работа slozhno-sosredotochitsya
 Проект выполнен в рамках учебного курса "Фронтенд разработчик" Яндекс.Практикума<br>
